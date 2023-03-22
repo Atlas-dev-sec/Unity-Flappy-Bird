@@ -36,7 +36,7 @@ public class MainMenu : MonoBehaviour
         {
             mintButton.SetActive(false);
         }
-        Debug.Log(GameManager.newRecord);
+        
     }
 
     public void Play()

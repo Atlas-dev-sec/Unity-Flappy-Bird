@@ -28,11 +28,6 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("MainScene");
         }
 
-        /*if(mintToken.claimButton)
-        {
-            mintButton.SetActive(false);
-        }*/
-
         currentScoreText.text = score.ToString();
         CheckHighScore();
         
